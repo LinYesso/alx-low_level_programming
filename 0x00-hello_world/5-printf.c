@@ -1,10 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - program that prints exactly with proper grammar, but the outcome is a piece of art,
+ * main - program that prints a sentence
  *
- * Return; Always 0  (succes)
- *
+ * Return: Always 0  (succes)
  */
 int main(void)
 {
