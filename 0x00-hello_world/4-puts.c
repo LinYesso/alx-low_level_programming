@@ -1,12 +1,10 @@
 #include <stdio.h>
 
 /**
+ * main - prints a sentence in the console
  *
- *  * main - prints th eentence "Programming is like building a multilingual puzzle
- *
- *   * Return: Always 0 (success)
- *
-  */
+ *  Return: Always 0 (success)
+ */
 
 int main(void)
 {
