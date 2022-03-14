@@ -15,10 +15,17 @@ int main(void)
 		{
 			if (i < j)
 			{
-				putchar((i / 10) + 48);
-				putchar((i % 10) + 48);
+				rem1 = i % 10;
+				rem2 = j % 10;
+
+				div1 = i / 10;
+				div2 = j / 10;
+
+				putchar(div1 + 48);
+				putchar(rem1 + 48);
 				putchar(' ');
-				putchar((j / 10) + 48);								putchar((j % 10) + 48);
+				putchar(div2 + 48);
+				putchar(rem2 + 48);
 				if (i != 98 || j != 99)
 				{
 					putchar(',');
