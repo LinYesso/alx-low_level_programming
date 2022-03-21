@@ -23,10 +23,10 @@ void puts_half(char *str)
 		}
 	} else if (l % 2)
 	{
-		for (n = (l- 1) / 2; n < l - 1; n++)
+		for (n = (l - 1) / 2; n < l - 1; n++)
 		{
 			_putchar(str[n + 1]);
 		}
 	}
 	_putchar('\n');
-}	
+}
